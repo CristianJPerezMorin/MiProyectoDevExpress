@@ -1,0 +1,4 @@
+﻿@using Abp.Localization
+@inherits MiProyecto.Web.Views.MiProyectoRazorPage<TModel>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, MiProyecto.Web.Mvc
