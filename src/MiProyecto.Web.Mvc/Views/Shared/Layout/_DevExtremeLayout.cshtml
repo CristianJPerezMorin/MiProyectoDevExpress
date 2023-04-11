@@ -23,16 +23,11 @@
     <link href="~/css/devextreme/dx.light.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/thirdparty.bundle.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <script src="~/js/thirdparty.bundle.js"></script>
-    <script src="~/js/devextreme/jquery.js"></script>
-    <script src="~/js/devextreme/dx.all.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/devextreme/aspnet/dx.aspnet.mvc.js"></script>
-    <script src="~/js/devextreme/aspnet/dx.aspnet.data.js"></script>
-
+   
     <title>@pageTitle</title>
 
     @await Html.PartialAsync("_Styles.cshtml")
+    @await Html.PartialAsync("_Scripts.cshtml")
     @RenderSection("styles", required: false)
 </head>
 <body class="hold-transition sidebar-mini">
